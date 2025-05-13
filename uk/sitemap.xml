@@ -2,79 +2,79 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/uk/docs/</loc>
+    <loc>https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/</loc>
     <lastmod>2025-05-13T00:48:42+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="uk"
-                href="http://localhost:1313/uk/docs/"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/"
                 />
   </url><url>
-    <loc>http://localhost:1313/uk/docs/setup/</loc>
+    <loc>https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/setup/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/setup/"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/setup/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="uk"
-                href="http://localhost:1313/uk/docs/setup/"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/setup/"
                 />
   </url><url>
-    <loc>http://localhost:1313/uk/</loc>
+    <loc>https://aesthetic-basbousa-b61c81.netlify.app/uk/</loc>
     <lastmod>2025-05-13T00:48:42+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="uk"
-                href="http://localhost:1313/uk/"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/"
                 />
   </url><url>
-    <loc>http://localhost:1313/uk/docs/deployment/</loc>
+    <loc>https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/deployment/</loc>
     <lastmod>2025-05-13T00:48:42+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/docs/deployment/"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/deployment/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="uk"
-                href="http://localhost:1313/uk/docs/deployment/"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/deployment/"
                 />
   </url><url>
-    <loc>http://localhost:1313/uk/categories/</loc>
+    <loc>https://aesthetic-basbousa-b61c81.netlify.app/uk/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="uk"
-                href="http://localhost:1313/uk/categories/"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/uk/tags/</loc>
+    <loc>https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="uk"
-                href="http://localhost:1313/uk/tags/"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/"
                 />
   </url>
 </urlset>
