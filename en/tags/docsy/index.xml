@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docsy on Documentation</title>
+    <link>https://aesthetic-basbousa-b61c81.netlify.app/en/tags/docsy/</link>
+    <description>Recent content in Docsy on Documentation</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://aesthetic-basbousa-b61c81.netlify.app/en/tags/docsy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing Node.js for the Documentation Site</title>
+      <link>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/nodejs-setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/nodejs-setup/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This guide describes how to properly set up Node.js in a Hugo+Docsy-based documentation project. The instructions are based on a real debugging and configuration experience during the deployment of a multilingual documentation site.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-nodejs-is-needed&#34;&gt;Why Node.js is Needed&lt;/h2&gt;&#xA;&lt;p&gt;The Docsy theme uses PostCSS to process stylesheets. This requires Node.js and related dependencies to be installed and correctly configured. Without them, running &lt;code&gt;hugo&lt;/code&gt; results in errors like:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ERROR POSTCSS: failed to transform &amp;#34;/scss/main.css&amp;#34; (text/css): ...&#xA;Error [ERR_MODULE_NOT_FOUND]: Cannot find package &amp;#39;stream&amp;#39; imported from ...&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;&#xA;&lt;h2 id=&#34;initial-issue-and-rollback-to-nodejs-v18&#34;&gt;Initial Issue and Rollback to Node.js v18&lt;/h2&gt;&#xA;&lt;p&gt;While Node.js v22 is the current LTS, initial testing with PostCSS in the project using v22 resulted in compatibility issues. Specifically, the package &lt;code&gt;postcss-cli&lt;/code&gt; attempted to use the &lt;code&gt;stream&lt;/code&gt; module, which wasn&amp;rsquo;t polyfilled by default, leading to build failure.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

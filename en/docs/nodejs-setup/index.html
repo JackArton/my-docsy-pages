@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="alternate" type="application/rss&#43;xml" href="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/index.xml">
 <meta name="robots" content="index, follow">
 
 
@@ -18,23 +17,25 @@
 <link rel="icon" type="image/png" href="https://aesthetic-basbousa-b61c81.netlify.app/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="https://aesthetic-basbousa-b61c81.netlify.app/favicons/android-192x192.png" sizes="192x192">
 
-<title>Documentation | Documentation</title>
-<meta name="description" content="All the official documentation for using the site, setup, deployment, and more.">
-<meta property="og:url" content="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/">
+<title>Installing Node.js for the Documentation Site | Documentation</title>
+<meta name="description" content="How to install and configure Node.js for your Hugo&#43;Docsy project">
+<meta property="og:url" content="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/nodejs-setup/">
   <meta property="og:site_name" content="Documentation">
-  <meta property="og:title" content="Documentation">
-  <meta property="og:description" content="All the official documentation for using the site, setup, deployment, and more.">
+  <meta property="og:title" content="Installing Node.js for the Documentation Site">
+  <meta property="og:description" content="How to install and configure Node.js for your Hugo&#43;Docsy project">
   <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+    <meta property="article:tag" content="Docsy">
+    <meta property="article:tag" content="Node.js">
 
-  <meta itemprop="name" content="Documentation">
-  <meta itemprop="description" content="All the official documentation for using the site, setup, deployment, and more.">
-  <meta itemprop="datePublished" content="2025-05-13T00:49:31+03:00">
-  <meta itemprop="dateModified" content="2025-05-13T00:49:31+03:00">
-  <meta itemprop="wordCount" content="12">
+  <meta itemprop="name" content="Installing Node.js for the Documentation Site">
+  <meta itemprop="description" content="How to install and configure Node.js for your Hugo&#43;Docsy project">
+  <meta itemprop="wordCount" content="301">
+  <meta itemprop="keywords" content="Docsy,Node.js">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Documentation">
-  <meta name="twitter:description" content="All the official documentation for using the site, setup, deployment, and more.">
+  <meta name="twitter:title" content="Installing Node.js for the Documentation Site">
+  <meta name="twitter:description" content="How to install and configure Node.js for your Hugo&#43;Docsy project">
 <link rel="preload" href="https://aesthetic-basbousa-b61c81.netlify.app/scss/main.min.48c25d0a5a23a1e8cae94d6c5e7622061e5345cf098171b1d6ee41d8e309e6c8.css" as="style" integrity="sha256-SMJdClojoejK6U1sXnYiBh5TRc8JgXGx1u5B2OMJ5sg=" crossorigin="anonymous">
 <link href="https://aesthetic-basbousa-b61c81.netlify.app/scss/main.min.48c25d0a5a23a1e8cae94d6c5e7622061e5345cf098171b1d6ee41d8e309e6c8.css" rel="stylesheet" integrity="sha256-SMJdClojoejK6U1sXnYiBh5TRc8JgXGx1u5B2OMJ5sg=" crossorigin="anonymous">
 <script
@@ -43,7 +44,7 @@
   crossorigin="anonymous"></script>
 
   </head>
-  <body class="td-section">
+  <body class="td-page">
     <header>
       <nav class="td-navbar js-navbar-scroll" data-bs-theme="dark">
 <div class="container-fluid flex-column flex-md-row">
@@ -57,7 +58,7 @@
         <div class="dropdown">
   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">English</a>
   <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/">Українська</a></li>
+    <li><a class="dropdown-item" href="https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/nodejs-setup/">Українська</a></li>
     </ul>
 </div></li>
       </ul>
@@ -83,20 +84,20 @@
       <div class="dropdown">
   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">English</a>
   <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/">Українська</a></li>
+    <li><a class="dropdown-item" href="https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/nodejs-setup/">Українська</a></li>
     </ul>
 </div>
     </div>
     <ul class="td-sidebar-nav__section pe-md-3 ul-0">
       <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-endocs-li">
-  <a href="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/" class="align-left ps-0 active td-sidebar-link td-sidebar-link__section tree-root" id="m-endocs"><span class="td-sidebar-nav-active-item">Documentation</span></a>
+  <a href="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-endocs"><span class="">Documentation</span></a>
   <ul class="ul-1">
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-endocssetup-li">
   <a href="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/setup/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-endocssetup"><span class="">Site Setup</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-endocsdeployment-li">
   <a href="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/deployment/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-endocsdeployment"><span class="">Deploying the site on Netlify</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-endocsnodejs-setup-li">
-  <a href="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/nodejs-setup/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-endocsnodejs-setup"><span class="">Installing Node.js for the Documentation Site</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-endocsnodejs-setup-li">
+  <a href="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/nodejs-setup/" class="align-left ps-0 active td-sidebar-link td-sidebar-link__page" id="m-endocsnodejs-setup"><span class="td-sidebar-nav-active-item">Installing Node.js for the Documentation Site</span></a>
 </li>
   </ul>
 </li>
@@ -110,7 +111,18 @@
 
 </div>
 
-            
+            <div class="td-toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#why-nodejs-is-needed">Why Node.js is Needed</a></li>
+    <li><a href="#initial-issue-and-rollback-to-nodejs-v18">Initial Issue and Rollback to Node.js v18</a></li>
+    <li><a href="#switching-to-nodejs-v22-and-resolving-dependencies">Switching to Node.js v22 and Resolving Dependencies</a></li>
+    <li><a href="#summary">Summary</a></li>
+  </ul>
+</nav>
+      </div>
+    
             <div class="taxonomy taxonomy-terms-cloud taxo-tags">
       <h5 class="taxonomy-title">Tags</h5>
       <ul class="taxonomy-terms">
@@ -125,45 +137,76 @@
             
   
 
-            <nav aria-label="breadcrumb" class="td-breadcrumbs td-breadcrumbs__single">
+            <nav aria-label="breadcrumb" class="td-breadcrumbs">
   <ol class="breadcrumb">
+  <li class="breadcrumb-item">
+    <a href="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/">Documentation</a></li>
   <li class="breadcrumb-item active" aria-current="page">
-    Documentation</li>
+    Installing Node.js for the Documentation Site</li>
   </ol>
 </nav>
             
 <div class="td-content">
-	<h1>Documentation</h1>
-  <div class="lead">All the official documentation for using the site, setup, deployment, and more.</div>
+	<h1>Installing Node.js for the Documentation Site</h1>
+	<div class="lead">How to install and configure Node.js for your Hugo+Docsy project</div>
 	<header class="article-meta">
-		
-</header>
-	<p>Welcome to the documentation section. Here you’ll find guides and technical details.</p>
-
-  <div class="section-index">
-    
-    
-    <hr class="panel-line">
-        <div class="entry">
-                <h5>
-                    <a href="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/setup/">Site Setup</a>
-                </h5>
-                <p>Overview of setting up the Hugo site with Docsy theme and GitHub repositories.</p>
-            </div>
-        <div class="entry">
-                <h5>
-                    <a href="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/deployment/">Deploying the site on Netlify</a>
-                </h5>
-                <p>This guide will help you deploy your Hugo site on the Netlify platform. You need to follow these simple steps.</p>
-            </div>
-        <div class="entry">
-                <h5>
-                    <a href="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/nodejs-setup/">Installing Node.js for the Documentation Site</a>
-                </h5>
-                <p>How to install and configure Node.js for your Hugo+Docsy project</p>
-            </div>
-        </div>
+		<div class="taxonomy taxonomy-terms-article taxo-tags">
+  <h5 class="taxonomy-title">Tags:</h5>
+  <ul class="taxonomy-terms">
+    <li><a class="taxonomy-term" href="https://aesthetic-basbousa-b61c81.netlify.app/en/tags/docsy/" data-taxonomy-term="docsy"><span class="taxonomy-label">Docsy</span></a></li>
+    <li><a class="taxonomy-term" href="https://aesthetic-basbousa-b61c81.netlify.app/en/tags/node.js/" data-taxonomy-term="node.js"><span class="taxonomy-label">Node.js</span></a></li>
+    </ul>
 </div>
+
+</header>
+	<h2 id="introduction">Introduction</h2>
+<p>This guide describes how to properly set up Node.js in a Hugo+Docsy-based documentation project. The instructions are based on a real debugging and configuration experience during the deployment of a multilingual documentation site.</p>
+<h2 id="why-nodejs-is-needed">Why Node.js is Needed</h2>
+<p>The Docsy theme uses PostCSS to process stylesheets. This requires Node.js and related dependencies to be installed and correctly configured. Without them, running <code>hugo</code> results in errors like:</p>
+<pre tabindex="0"><code>ERROR POSTCSS: failed to transform &#34;/scss/main.css&#34; (text/css): ...
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package &#39;stream&#39; imported from ...
+</code></pre><hr>
+<h2 id="initial-issue-and-rollback-to-nodejs-v18">Initial Issue and Rollback to Node.js v18</h2>
+<p>While Node.js v22 is the current LTS, initial testing with PostCSS in the project using v22 resulted in compatibility issues. Specifically, the package <code>postcss-cli</code> attempted to use the <code>stream</code> module, which wasn&rsquo;t polyfilled by default, leading to build failure.</p>
+<p>To quickly resolve the problem, Node.js v18 was temporarily used, since it provided full compatibility with the older dependencies.</p>
+<p>Commands used:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nvm install <span class="m">18</span>
+</span></span><span class="line"><span class="cl">nvm use <span class="m">18</span>
+</span></span></code></pre></div><hr>
+<h2 id="switching-to-nodejs-v22-and-resolving-dependencies">Switching to Node.js v22 and Resolving Dependencies</h2>
+<p>Once the documentation project was working with Node.js v18, the focus shifted to enabling the use of the latest LTS version, v22.</p>
+<p>Steps taken:</p>
+<ol>
+<li>Install Node.js 22:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nvm install <span class="m">22</span>
+</span></span></code></pre></div><ol start="2">
+<li>Switch to it:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nvm use <span class="m">22</span>
+</span></span></code></pre></div><ol start="3">
+<li>Set it as default:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nvm <span class="nb">alias</span> default <span class="m">22</span>
+</span></span></code></pre></div><ol start="4">
+<li>Fix the missing polyfills (like <code>stream</code>) by explicitly installing them:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">npm install stream util assert buffer process path events --save-dev
+</span></span></code></pre></div><p>These packages emulate Node core modules in the browser or build environment and are essential for <code>postcss-cli</code> to work with modern Node versions.</p>
+<hr>
+<h2 id="summary">Summary</h2>
+<ul>
+<li><strong>Why use Node.js:</strong> Required for PostCSS processing in Docsy</li>
+<li><strong>Why version 18 was used temporarily:</strong> Better compatibility during initial setup</li>
+<li><strong>Final setup:</strong> Node.js v22 + manual polyfills</li>
+<li><strong>Check active Node version:</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">node -v
+</span></span></code></pre></div><p>Now the site builds cleanly with <code>hugo</code>, and changes are ready for deployment via GitHub + Netlify.</p>
+
+	
+</div>
+
 
           </main>
         </div>

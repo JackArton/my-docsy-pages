@@ -65,6 +65,42 @@
                 href="https://aesthetic-basbousa-b61c81.netlify.app/en/categories/"
                 />
   </url><url>
+    <loc>https://aesthetic-basbousa-b61c81.netlify.app/en/tags/docsy/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="uk"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/docsy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/en/tags/docsy/"
+                />
+  </url><url>
+    <loc>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/nodejs-setup/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="uk"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/nodejs-setup/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/nodejs-setup/"
+                />
+  </url><url>
+    <loc>https://aesthetic-basbousa-b61c81.netlify.app/en/tags/node.js/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="uk"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/node.js/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/en/tags/node.js/"
+                />
+  </url><url>
     <loc>https://aesthetic-basbousa-b61c81.netlify.app/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
