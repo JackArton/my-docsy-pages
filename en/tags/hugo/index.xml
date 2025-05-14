@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Documentation</title>
+    <link>https://aesthetic-basbousa-b61c81.netlify.app/en/tags/hugo/</link>
+    <description>Recent content in Hugo on Documentation</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://aesthetic-basbousa-b61c81.netlify.app/en/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Setup</title>
+      <link>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/hugo-setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/hugo-setup/</guid>
+      <description>&lt;p&gt;This page covers the initial steps to create two GitHub repositories, configure Hugo with the Docsy theme, and set up the basic configuration file.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

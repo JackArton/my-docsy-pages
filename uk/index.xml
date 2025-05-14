@@ -6,28 +6,34 @@
     <description>Recent content on Документація</description>
     <generator>Hugo</generator>
     <language>uk</language>
-    <lastBuildDate>Tue, 13 May 2025 00:48:42 +0300</lastBuildDate>
     <atom:link href="https://aesthetic-basbousa-b61c81.netlify.app/uk/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Налаштування сайту</title>
-      <link>https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/setup/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/setup/</guid>
-      <description>&lt;p&gt;Ця сторінка містить вступ до налаштування сайту: створення репозиторіїв, підключення теми Docsy та базові конфігураційні параметри.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Розгортання сайту на Netlify</title>
-      <link>https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/deployment/</link>
-      <pubDate>Tue, 13 May 2025 00:48:42 +0300</pubDate>
-      <guid>https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/deployment/</guid>
-      <description>&lt;h3 id=&#34;крок-1-підготовка-репозиторіїв&#34;&gt;Крок 1: Підготовка репозиторіїв&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Переконайтеся, що ваш код Hugo-сайту розміщений у GitHub-репозиторії.&lt;/li&gt;&#xA;&lt;li&gt;Публічний репозиторій для деплою повинен містити лише згенеровані файли (наприклад, з директорії &lt;code&gt;public/&lt;/code&gt;).&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;крок-2-створення-нового-проєкту-на-netlify&#34;&gt;Крок 2: Створення нового проєкту на Netlify&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Перейдіть на &lt;a href=&#34;https://www.netlify.com/&#34;&gt;Netlify&lt;/a&gt; і зареєструйтеся або увійдіть.&lt;/li&gt;&#xA;&lt;li&gt;Натисніть на кнопку &amp;ldquo;New Site from Git&amp;rdquo;.&lt;/li&gt;&#xA;&lt;li&gt;З&amp;rsquo;єднайте ваш GitHub-акаунт з Netlify і виберіть відповідний репозиторій.&lt;/li&gt;&#xA;&lt;li&gt;У налаштуваннях вкажіть команду побудови: &lt;code&gt;hugo&lt;/code&gt; та директорію публікації: &lt;code&gt;public&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;крок-3-налаштування-змінних-середовища-environment-variables&#34;&gt;Крок 3: Налаштування змінних середовища (Environment Variables)&lt;/h3&gt;&#xA;&lt;p&gt;Додайте змінні середовища, якщо потрібно (наприклад, для секретних ключів API чи інших налаштувань).&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Встановлення Node.js для сайту документації</title>
       <link>https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/nodejs-setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/nodejs-setup/</guid>
       <description>&lt;h2 id=&#34;вступ&#34;&gt;Вступ&lt;/h2&gt;&#xA;&lt;p&gt;Цей посібник описує, як правильно встановити Node.js у проєкті документації на базі Hugo+Docsy. Інструкції базуються на реальному досвіді налагодження та конфігурації під час розгортання багатомовного сайту документації.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;навіщо-потрібен-nodejs&#34;&gt;Навіщо потрібен Node.js&lt;/h2&gt;&#xA;&lt;p&gt;Тема Docsy використовує PostCSS для обробки стилів. Для цього потрібно встановити Node.js та відповідні залежності. Без цього команда &lt;code&gt;hugo&lt;/code&gt; викликає помилки типу:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ERROR POSTCSS: failed to transform &amp;#34;/scss/main.css&amp;#34; (text/css): ...&#xA;Error [ERR_MODULE_NOT_FOUND]: Cannot find package &amp;#39;stream&amp;#39; imported from ...&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;&#xA;&lt;h2 id=&#34;початкові-проблеми-та-відкат-до-nodejs-v18&#34;&gt;Початкові проблеми та відкат до Node.js v18&lt;/h2&gt;&#xA;&lt;p&gt;Хоча Node.js v22 є актуальною LTS-версією, перші спроби запуску PostCSS з нею призвели до проблем сумісності. Зокрема, пакет &lt;code&gt;postcss-cli&lt;/code&gt; намагався використовувати модуль &lt;code&gt;stream&lt;/code&gt;, який не підтягувався автоматично, через що збірка сайту падала.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Встановлення Hugo</title>
+      <link>https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/hugo-setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/hugo-setup/</guid>
+      <description>&lt;p&gt;Ця сторінка містить вступ до налаштування сайту: створення репозиторіїв, підключення теми Docsy та базові конфігураційні параметри.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Розгортання сайту на Netlify</title>
+      <link>https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/deploy-netlify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/deploy-netlify/</guid>
+      <description>&lt;h3 id=&#34;крок-1-підготовка-репозиторіїв&#34;&gt;Крок 1: Підготовка репозиторіїв&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Переконайтеся, що ваш код Hugo-сайту розміщений у GitHub-репозиторії.&lt;/li&gt;&#xA;&lt;li&gt;Публічний репозиторій для деплою повинен містити лише згенеровані файли (наприклад, з директорії &lt;code&gt;public/&lt;/code&gt;).&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;крок-2-створення-нового-проєкту-на-netlify&#34;&gt;Крок 2: Створення нового проєкту на Netlify&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Перейдіть на &lt;a href=&#34;https://www.netlify.com/&#34;&gt;Netlify&lt;/a&gt; і зареєструйтеся або увійдіть.&lt;/li&gt;&#xA;&lt;li&gt;Натисніть на кнопку &amp;ldquo;New Site from Git&amp;rdquo;.&lt;/li&gt;&#xA;&lt;li&gt;З&amp;rsquo;єднайте ваш GitHub-акаунт з Netlify і виберіть відповідний репозиторій.&lt;/li&gt;&#xA;&lt;li&gt;У налаштуваннях вкажіть команду побудови: &lt;code&gt;hugo&lt;/code&gt; та директорію публікації: &lt;code&gt;public&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;крок-3-налаштування-змінних-середовища-environment-variables&#34;&gt;Крок 3: Налаштування змінних середовища (Environment Variables)&lt;/h3&gt;&#xA;&lt;p&gt;Додайте змінні середовища, якщо потрібно (наприклад, для секретних ключів API чи інших налаштувань).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Результати пошуку</title>
+      <link>https://aesthetic-basbousa-b61c81.netlify.app/uk/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aesthetic-basbousa-b61c81.netlify.app/uk/search/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

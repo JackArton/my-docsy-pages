@@ -6,28 +6,27 @@
     <description>Recent content on Documentation</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 13 May 2025 00:49:31 +0300</lastBuildDate>
     <atom:link href="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Site Setup</title>
-      <link>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/setup/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/setup/</guid>
-      <description>&lt;p&gt;This page covers the initial steps to create two GitHub repositories, configure Hugo with the Docsy theme, and set up the basic configuration file.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Deploying the site on Netlify</title>
-      <link>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/deployment/</link>
-      <pubDate>Tue, 13 May 2025 00:49:31 +0300</pubDate>
-      <guid>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/deployment/</guid>
-      <description>&lt;h3 id=&#34;step-1-preparing-the-repositories&#34;&gt;Step 1: Preparing the repositories&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Make sure your Hugo site code is hosted in a GitHub repository.&lt;/li&gt;&#xA;&lt;li&gt;The public repository should only contain generated files (e.g., from the &lt;code&gt;public/&lt;/code&gt; directory).&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;step-2-create-a-new-project-on-netlify&#34;&gt;Step 2: Create a new project on Netlify&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Go to &lt;a href=&#34;https://www.netlify.com/&#34;&gt;Netlify&lt;/a&gt; and sign up or log in.&lt;/li&gt;&#xA;&lt;li&gt;Click on the &amp;ldquo;New Site from Git&amp;rdquo; button.&lt;/li&gt;&#xA;&lt;li&gt;Connect your GitHub account with Netlify and select the appropriate repository.&lt;/li&gt;&#xA;&lt;li&gt;In the settings, specify the build command: &lt;code&gt;hugo&lt;/code&gt; and the publish directory: &lt;code&gt;public&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;step-3-environment-variables&#34;&gt;Step 3: Environment variables&lt;/h3&gt;&#xA;&lt;p&gt;Add environment variables if needed (e.g., for API keys or other settings).&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Installing Node.js for the Documentation Site</title>
       <link>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/nodejs-setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/nodejs-setup/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This guide describes how to properly set up Node.js in a Hugo+Docsy-based documentation project. The instructions are based on a real debugging and configuration experience during the deployment of a multilingual documentation site.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-nodejs-is-needed&#34;&gt;Why Node.js is Needed&lt;/h2&gt;&#xA;&lt;p&gt;The Docsy theme uses PostCSS to process stylesheets. This requires Node.js and related dependencies to be installed and correctly configured. Without them, running &lt;code&gt;hugo&lt;/code&gt; results in errors like:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ERROR POSTCSS: failed to transform &amp;#34;/scss/main.css&amp;#34; (text/css): ...&#xA;Error [ERR_MODULE_NOT_FOUND]: Cannot find package &amp;#39;stream&amp;#39; imported from ...&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;&#xA;&lt;h2 id=&#34;initial-issue-and-rollback-to-nodejs-v18&#34;&gt;Initial Issue and Rollback to Node.js v18&lt;/h2&gt;&#xA;&lt;p&gt;While Node.js v22 is the current LTS, initial testing with PostCSS in the project using v22 resulted in compatibility issues. Specifically, the package &lt;code&gt;postcss-cli&lt;/code&gt; attempted to use the &lt;code&gt;stream&lt;/code&gt; module, which wasn&amp;rsquo;t polyfilled by default, leading to build failure.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hugo Setup</title>
+      <link>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/hugo-setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/hugo-setup/</guid>
+      <description>&lt;p&gt;This page covers the initial steps to create two GitHub repositories, configure Hugo with the Docsy theme, and set up the basic configuration file.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deploying the site on Netlify</title>
+      <link>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/deploy-netlify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/deploy-netlify/</guid>
+      <description>&lt;h3 id=&#34;step-1-preparing-the-repositories&#34;&gt;Step 1: Preparing the repositories&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Make sure your Hugo site code is hosted in a GitHub repository.&lt;/li&gt;&#xA;&lt;li&gt;The public repository should only contain generated files (e.g., from the &lt;code&gt;public/&lt;/code&gt; directory).&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;step-2-create-a-new-project-on-netlify&#34;&gt;Step 2: Create a new project on Netlify&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Go to &lt;a href=&#34;https://www.netlify.com/&#34;&gt;Netlify&lt;/a&gt; and sign up or log in.&lt;/li&gt;&#xA;&lt;li&gt;Click on the &amp;ldquo;New Site from Git&amp;rdquo; button.&lt;/li&gt;&#xA;&lt;li&gt;Connect your GitHub account with Netlify and select the appropriate repository.&lt;/li&gt;&#xA;&lt;li&gt;In the settings, specify the build command: &lt;code&gt;hugo&lt;/code&gt; and the publish directory: &lt;code&gt;public&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;step-3-environment-variables&#34;&gt;Step 3: Environment variables&lt;/h3&gt;&#xA;&lt;p&gt;Add environment variables if needed (e.g., for API keys or other settings).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

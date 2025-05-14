@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/</loc>
-    <lastmod>2025-05-13T00:49:31+03:00</lastmod>
+    <lastmod>2025-05-14T11:23:29+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="uk"
@@ -15,42 +15,41 @@
                 href="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/"
                 />
   </url><url>
-    <loc>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/setup/</loc>
+    <loc>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/nodejs-setup/</loc>
+    <lastmod>2025-05-14T11:23:29+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="uk"
-                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/setup/"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/nodejs-setup/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/setup/"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/nodejs-setup/"
                 />
   </url><url>
-    <loc>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/deployment/</loc>
-    <lastmod>2025-05-13T00:49:31+03:00</lastmod>
+    <loc>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/hugo-setup/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="uk"
-                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/deployment/"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/hugo-setup/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/deployment/"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/hugo-setup/"
                 />
   </url><url>
-    <loc>https://aesthetic-basbousa-b61c81.netlify.app/en/</loc>
-    <lastmod>2025-05-13T00:49:31+03:00</lastmod>
+    <loc>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/deploy-netlify/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="uk"
-                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/deploy-netlify/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://aesthetic-basbousa-b61c81.netlify.app/en/"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/deploy-netlify/"
                 />
   </url><url>
     <loc>https://aesthetic-basbousa-b61c81.netlify.app/en/categories/</loc>
@@ -65,7 +64,10 @@
                 href="https://aesthetic-basbousa-b61c81.netlify.app/en/categories/"
                 />
   </url><url>
+    <loc>https://aesthetic-basbousa-b61c81.netlify.app/en/tags/deployment/</loc>
+  </url><url>
     <loc>https://aesthetic-basbousa-b61c81.netlify.app/en/tags/docsy/</loc>
+    <lastmod>2025-05-14T11:23:29+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="uk"
@@ -77,19 +79,45 @@
                 href="https://aesthetic-basbousa-b61c81.netlify.app/en/tags/docsy/"
                 />
   </url><url>
-    <loc>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/nodejs-setup/</loc>
+    <loc>https://aesthetic-basbousa-b61c81.netlify.app/en/</loc>
+    <lastmod>2025-05-14T11:23:29+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="uk"
-                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/nodejs-setup/"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://aesthetic-basbousa-b61c81.netlify.app/en/docs/nodejs-setup/"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/en/"
+                />
+  </url><url>
+    <loc>https://aesthetic-basbousa-b61c81.netlify.app/en/tags/hugo/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="uk"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/en/tags/hugo/"
+                />
+  </url><url>
+    <loc>https://aesthetic-basbousa-b61c81.netlify.app/en/tags/netlify/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="uk"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/netlify/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/en/tags/netlify/"
                 />
   </url><url>
     <loc>https://aesthetic-basbousa-b61c81.netlify.app/en/tags/node.js/</loc>
+    <lastmod>2025-05-14T11:23:29+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="uk"
@@ -101,7 +129,22 @@
                 href="https://aesthetic-basbousa-b61c81.netlify.app/en/tags/node.js/"
                 />
   </url><url>
+    <loc>https://aesthetic-basbousa-b61c81.netlify.app/en/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="uk"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/en/search/"
+                />
+  </url><url>
+    <loc>https://aesthetic-basbousa-b61c81.netlify.app/en/tags/setup/</loc>
+  </url><url>
     <loc>https://aesthetic-basbousa-b61c81.netlify.app/en/tags/</loc>
+    <lastmod>2025-05-14T11:23:29+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="uk"

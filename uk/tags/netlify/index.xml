@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Netlify on Документація</title>
+    <link>https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/netlify/</link>
+    <description>Recent content in Netlify on Документація</description>
+    <generator>Hugo</generator>
+    <language>uk</language>
+    <atom:link href="https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Розгортання сайту на Netlify</title>
+      <link>https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/deploy-netlify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/deploy-netlify/</guid>
+      <description>&lt;h3 id=&#34;крок-1-підготовка-репозиторіїв&#34;&gt;Крок 1: Підготовка репозиторіїв&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Переконайтеся, що ваш код Hugo-сайту розміщений у GitHub-репозиторії.&lt;/li&gt;&#xA;&lt;li&gt;Публічний репозиторій для деплою повинен містити лише згенеровані файли (наприклад, з директорії &lt;code&gt;public/&lt;/code&gt;).&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;крок-2-створення-нового-проєкту-на-netlify&#34;&gt;Крок 2: Створення нового проєкту на Netlify&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Перейдіть на &lt;a href=&#34;https://www.netlify.com/&#34;&gt;Netlify&lt;/a&gt; і зареєструйтеся або увійдіть.&lt;/li&gt;&#xA;&lt;li&gt;Натисніть на кнопку &amp;ldquo;New Site from Git&amp;rdquo;.&lt;/li&gt;&#xA;&lt;li&gt;З&amp;rsquo;єднайте ваш GitHub-акаунт з Netlify і виберіть відповідний репозиторій.&lt;/li&gt;&#xA;&lt;li&gt;У налаштуваннях вкажіть команду побудови: &lt;code&gt;hugo&lt;/code&gt; та директорію публікації: &lt;code&gt;public&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;крок-3-налаштування-змінних-середовища-environment-variables&#34;&gt;Крок 3: Налаштування змінних середовища (Environment Variables)&lt;/h3&gt;&#xA;&lt;p&gt;Додайте змінні середовища, якщо потрібно (наприклад, для секретних ключів API чи інших налаштувань).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
