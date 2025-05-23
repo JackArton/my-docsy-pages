@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Boards on Documentation</title>
+    <link>https://aesthetic-basbousa-b61c81.netlify.app/en/tags/boards/</link>
+    <description>Recent content in Boards on Documentation</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://aesthetic-basbousa-b61c81.netlify.app/en/tags/boards/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Working with Boards</title>
+      <link>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/concrete-cms/boards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/concrete-cms/boards/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This page describes how to work with Boards in Concrete CMS — a powerful feature for displaying dynamic content such as news, events, or articles.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;what-is-a-board&#34;&gt;What is a Board?&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;A &lt;strong&gt;Board&lt;/strong&gt; is a layout system for organizing and presenting dynamic content based on feeds, blocks, and templates.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;key-features&#34;&gt;Key Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Custom display templates&lt;/li&gt;&#xA;&lt;li&gt;Support for dynamic content feeds&lt;/li&gt;&#xA;&lt;li&gt;Drag-and-drop configuration&lt;/li&gt;&#xA;&lt;li&gt;Full access control options&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;basic-usage&#34;&gt;Basic Usage&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Navigate to &lt;strong&gt;Pages &amp;gt; Boards&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Click &lt;strong&gt;Create Board&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Choose a template and layout&lt;/li&gt;&#xA;&lt;li&gt;Add one or more feeds (e.g. &amp;ldquo;Recent News&amp;rdquo;)&lt;/li&gt;&#xA;&lt;li&gt;Save the board and embed it using the &lt;strong&gt;Board View&lt;/strong&gt; block&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://documentation.concretecms.org&#34;&gt;Concrete CMS Documentation&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtube.com&#34;&gt;Video tutorials on YouTube&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;&#xA;&lt;p&gt;Boards are a great way to manage and present structured dynamic content on your site. They combine design flexibility with centralized content control.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
