@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Concrete-Cms on Документація</title>
+    <link>https://aesthetic-basbousa-b61c81.netlify.app/uk/categories/concrete-cms/</link>
+    <description>Recent content in Concrete-Cms on Документація</description>
+    <generator>Hugo</generator>
+    <language>uk</language>
+    <atom:link href="https://aesthetic-basbousa-b61c81.netlify.app/uk/categories/concrete-cms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Робота з дошками</title>
+      <link>https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/concrete-cms/boards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/concrete-cms/boards/</guid>
+      <description>&lt;h2 id=&#34;вступ&#34;&gt;Вступ&lt;/h2&gt;&#xA;&lt;p&gt;Ця сторінка описує, як працювати з дошками у Concrete CMS: створення, налаштування, додавання блоків, управління доступом і публікація контенту.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;що-таке-дошки&#34;&gt;Що таке дошки?&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Дошка (Board) — це гнучка зона для виведення динамічного контенту (наприклад, новин, подій, статей).&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;основні-можливості&#34;&gt;Основні можливості&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Створення шаблонів відображення&lt;/li&gt;&#xA;&lt;li&gt;Додавання потоків (feeds) і блоків&lt;/li&gt;&#xA;&lt;li&gt;Гнучке планування відображення елементів&lt;/li&gt;&#xA;&lt;li&gt;Повна підтримка прав доступу&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;типові-дії&#34;&gt;Типові дії&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Перейдіть до &lt;strong&gt;Сторінки &amp;gt; Дошки&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Натисніть &lt;strong&gt;Створити дошку&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Оберіть шаблон і структуру&lt;/li&gt;&#xA;&lt;li&gt;Додайте потоки (наприклад, останні новини)&lt;/li&gt;&#xA;&lt;li&gt;Збережіть та вставте блок &lt;strong&gt;Board View&lt;/strong&gt; на потрібну сторінку&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;корисні-посилання&#34;&gt;Корисні посилання&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://documentation.concretecms.org&#34;&gt;Документація Concrete CMS&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtube.com&#34;&gt;Уроки по роботі з дошками (YouTube)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;підсумок&#34;&gt;Підсумок&lt;/h2&gt;&#xA;&lt;p&gt;Дошки — це потужний механізм для динамічного контенту. З їх допомогою можна централізовано управляти відображенням публікацій у кількох зонах сайту.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
