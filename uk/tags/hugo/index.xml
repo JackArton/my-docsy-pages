@@ -6,7 +6,6 @@
     <description>Recent content in Hugo on Документація</description>
     <generator>Hugo</generator>
     <language>uk</language>
-    <lastBuildDate>Fri, 30 May 2025 11:13:56 +0300</lastBuildDate>
     <atom:link href="https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Встановлення Hugo</title>
@@ -14,13 +13,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/hugo-setup/</guid>
       <description>&lt;p&gt;Ця сторінка містить вступ до налаштування сайту: створення репозиторіїв, підключення теми Docsy та базові конфігураційні параметри.&lt;/p&gt;&#xA;&lt;p&gt;What is Lorem Ipsum?&#xA;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Особливості відображення часу на читання в темі Docsy</title>
-      <link>https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/reading-time-docsy/</link>
-      <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/reading-time-docsy/</guid>
-      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;вступ&#34;&gt;Вступ&lt;/h2&gt;&#xA;&lt;p&gt;Тема &lt;strong&gt;Docsy&lt;/strong&gt; для Hugo активно використовується для створення технічної документації та навчальних ресурсів. Серед її численних можливостей — &lt;strong&gt;відображення часу на читання статті&lt;/strong&gt;. Це невелика, але дуже зручна UX-функція, яка допомагає читачу зорієнтуватися у тривалості ознайомлення з матеріалом.&lt;/p&gt;&#xA;&lt;p&gt;У цій статті розглянемо, як працює &lt;code&gt;ReadingTime&lt;/code&gt; у Hugo, як Docsy виводить цю інформацію, і як правильно &lt;strong&gt;локалізувати множинні форми для української мови&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;як-hugo-визначає-час-на-читання&#34;&gt;Як Hugo визначає час на читання&lt;/h2&gt;&#xA;&lt;p&gt;Hugo автоматично обчислює &lt;code&gt;.ReadingTime&lt;/code&gt; для кожної сторінки (крім &lt;code&gt;_index.md&lt;/code&gt;). Це число (ціле), що дорівнює приблизній кількості хвилин на прочитання тексту сторінки (розраховується на основі кількості слів).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
