@@ -80,6 +80,54 @@
                 href="https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/deploy-netlify/"
                 />
   </url><url>
+    <loc>https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/docsy/</loc>
+    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/en/tags/docsy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="uk"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/docsy/"
+                />
+  </url><url>
+    <loc>https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/hugo/</loc>
+    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/en/tags/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="uk"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/hugo/"
+                />
+  </url><url>
+    <loc>https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/i18n/</loc>
+    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/</loc>
+    <lastmod>2025-05-23T19:05:51+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="uk"
+                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/"
+                />
+  </url><url>
+    <loc>https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/reading-time-docsy/</loc>
+    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/%D1%87%D0%B0%D1%81-%D1%87%D0%B8%D1%82%D0%B0%D0%BD%D0%BD%D1%8F/</loc>
+    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://aesthetic-basbousa-b61c81.netlify.app/uk/categories/</loc>
     <lastmod>2025-05-23T19:05:51+03:00</lastmod>
     <xhtml:link
@@ -119,32 +167,6 @@
                 href="https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/concretecms/"
                 />
   </url><url>
-    <loc>https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/docsy/</loc>
-    <lastmod>2025-05-14T19:38:13+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://aesthetic-basbousa-b61c81.netlify.app/en/tags/docsy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk"
-                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/docsy/"
-                />
-  </url><url>
-    <loc>https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/hugo/</loc>
-    <lastmod>2025-05-14T19:38:13+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://aesthetic-basbousa-b61c81.netlify.app/en/tags/hugo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk"
-                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/hugo/"
-                />
-  </url><url>
     <loc>https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/netlify/</loc>
     <lastmod>2025-05-14T19:38:13+03:00</lastmod>
     <xhtml:link
@@ -169,19 +191,6 @@
                 rel="alternate"
                 hreflang="uk"
                 href="https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/node.js/"
-                />
-  </url><url>
-    <loc>https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/</loc>
-    <lastmod>2025-05-23T19:05:51+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://aesthetic-basbousa-b61c81.netlify.app/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk"
-                href="https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/"
                 />
   </url><url>
     <loc>https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/%D0%B2%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F/</loc>

@@ -6,6 +6,7 @@
     <description>Recent content in Docsy on Документація</description>
     <generator>Hugo</generator>
     <language>uk</language>
+    <lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://aesthetic-basbousa-b61c81.netlify.app/uk/tags/docsy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Встановлення Node.js для сайту документації</title>
@@ -13,6 +14,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/nodejs-setup/</guid>
       <description>&lt;h2 id=&#34;вступ&#34;&gt;Вступ&lt;/h2&gt;&#xA;&lt;p&gt;Цей посібник описує, як правильно встановити Node.js у проєкті документації на базі Hugo+Docsy. Інструкції базуються на реальному досвіді налагодження та конфігурації під час розгортання багатомовного сайту документації.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;навіщо-потрібен-nodejs&#34;&gt;Навіщо потрібен Node.js&lt;/h2&gt;&#xA;&lt;p&gt;Тема Docsy використовує PostCSS для обробки стилів. Для цього потрібно встановити Node.js та відповідні залежності. Без цього команда &lt;code&gt;hugo&lt;/code&gt; викликає помилки типу:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ERROR POSTCSS: failed to transform &amp;#34;/scss/main.css&amp;#34; (text/css): ...&#xA;Error [ERR_MODULE_NOT_FOUND]: Cannot find package &amp;#39;stream&amp;#39; imported from ...&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;&#xA;&lt;h2 id=&#34;початкові-проблеми-та-відкат-до-nodejs-v18&#34;&gt;Початкові проблеми та відкат до Node.js v18&lt;/h2&gt;&#xA;&lt;p&gt;Хоча Node.js v22 є актуальною LTS-версією, перші спроби запуску PostCSS з нею призвели до проблем сумісності. Зокрема, пакет &lt;code&gt;postcss-cli&lt;/code&gt; намагався використовувати модуль &lt;code&gt;stream&lt;/code&gt;, який не підтягувався автоматично, через що збірка сайту падала.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Особливості відображення часу на читання в темі Docsy</title>
+      <link>https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/reading-time-docsy/</link>
+      <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://aesthetic-basbousa-b61c81.netlify.app/uk/docs/reading-time-docsy/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;вступ&#34;&gt;Вступ&lt;/h2&gt;&#xA;&lt;p&gt;Тема &lt;strong&gt;Docsy&lt;/strong&gt; для Hugo активно використовується для створення технічної документації та навчальних ресурсів. Серед її численних можливостей — &lt;strong&gt;відображення часу на читання статті&lt;/strong&gt;. Це невелика, але дуже зручна UX-функція, яка допомагає читачу зорієнтуватися у тривалості ознайомлення з матеріалом.&lt;/p&gt;&#xA;&lt;p&gt;У цій статті розглянемо, як працює &lt;code&gt;ReadingTime&lt;/code&gt; у Hugo, як Docsy виводить цю інформацію, і як правильно &lt;strong&gt;локалізувати множинні форми для української мови&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;як-hugo-визначає-час-на-читання&#34;&gt;Як Hugo визначає час на читання&lt;/h2&gt;&#xA;&lt;p&gt;Hugo автоматично обчислює &lt;code&gt;.ReadingTime&lt;/code&gt; для кожної сторінки (крім &lt;code&gt;_index.md&lt;/code&gt;). Це число (ціле), що дорівнює приблизній кількості хвилин на прочитання тексту сторінки (розраховується на основі кількості слів).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
