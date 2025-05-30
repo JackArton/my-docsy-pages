@@ -19,7 +19,7 @@
       <link>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/hugo-setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://aesthetic-basbousa-b61c81.netlify.app/en/docs/hugo-setup/</guid>
-      <description>&lt;p&gt;This page covers the initial steps to create two GitHub repositories, configure Hugo with the Docsy theme, and set up the basic configuration file.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This page covers the initial steps to create two GitHub repositories, configure Hugo with the Docsy theme, and set up the basic configuration file.&lt;/p&gt;&#xA;&lt;p&gt;What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Deploying the site on Netlify</title>
